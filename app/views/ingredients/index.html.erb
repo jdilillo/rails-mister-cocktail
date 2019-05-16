@@ -1,0 +1,12 @@
+<div class="container mt-3">
+  <h1>ingredients</h1>
+
+<% @ingredients.each do |ingredient| %>
+
+<%= link_to "#{ingredient.name}", ingredient_path(ingredient)  %>
+
+<% end %>
+
+<br>
+
+</div>
