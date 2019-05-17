@@ -9,6 +9,7 @@ Cocktail.create(name: 'Mojito')
 Cocktail.create(name: 'Gibson')
 Cocktail.create(name: 'Old-Fashioned')
 
+puts 'Adding ingredients...'
 Ingredient.create(name: 'lemon')
 Ingredient.create(name: 'ice')
 Ingredient.create(name: 'mint leaves')
